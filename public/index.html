@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Trofi | All Food</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+<script src="https://www.gstatic.com/firebasejs/4.10.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC_bff2WFczT1UFX1aNYLKNFOAajY2WWHw",
+    authDomain: "trofidata.firebaseapp.com",
+    databaseURL: "https://trofidata.firebaseio.com",
+    projectId: "trofidata",
+    storageBucket: "trofidata.appspot.com",
+    messagingSenderId: "895523981616"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script src="bower_components/moment/moment.js"></script>
+<script src="bower_components/moment/min/moment-with-locales.js"></script>
+
+
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">
+					<div id="table" class="table">
+
+						<div class="row header">
+							<div class="cell">
+								Food Name
+							</div>
+							<div class="cell">
+								Restaurant Name
+							</div>
+							<div class="cell">
+								Description
+							</div>
+							<div class="cell">
+								Price
+							</div>
+							<div class="cell">
+								Discount %
+							</div>
+							<div class="cell">
+								Time Left
+							</div>
+							<div class="cell">
+								Location
+							</div>
+						</div>
+						
+
+					</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
